@@ -13,7 +13,7 @@ License:	GPL v2
 Group:		Applications/System
 Source0:	http://lttng.org/files/packages/%{name}-%{version}-%{subver}.tar.bz2
 # Source0-md5:	f89042bb64bf390f9b6814fa4abb6d85
-URL:		http://lttng.org/
+URL:		http://lttng.org/lttv
 BuildRequires:	babeltrace-devel >= 1.1.0
 %{?with_glpk:BuildRequires:	glpk-devel}
 BuildRequires:	glib2-devel >= 2.0.0

@@ -7,12 +7,11 @@ Summary:	Linux Trace Toolkit Viewer
 Summary(pl.UTF-8):	Linux Trace Toolkit Viewer - przeglądarka dla LTT
 Name:		lttv
 Version:	1.5
-%define	subver	beta1
-Release:	0.%{subver}.1
+Release:	1
 License:	GPL v2
 Group:		Applications/System
-Source0:	http://lttng.org/files/packages/%{name}-%{version}-%{subver}.tar.bz2
-# Source0-md5:	f89042bb64bf390f9b6814fa4abb6d85
+Source0:	http://lttng.org/files/packages/%{name}-%{version}.tar.bz2
+# Source0-md5:	90bab01dcc09bec40fceea7c60606335
 URL:		http://lttng.org/lttv
 BuildRequires:	babeltrace-devel >= 1.1.0
 %{?with_glpk:BuildRequires:	glpk-devel}
@@ -60,7 +59,7 @@ Header files for LTTV plugins.
 Pliki nagłówkowe dla wtyczek LTTV.
 
 %prep
-%setup -q -n %{name}-%{version}-%{subver}
+%setup -q
 
 %build
 #CPPFLAGS="%{rpmcppflags} -I/usr/include/ncurses"

@@ -7,7 +7,7 @@ Summary:	Linux Trace Toolkit Viewer
 Summary(pl.UTF-8):	Linux Trace Toolkit Viewer - przeglądarka dla LTT
 Name:		lttv
 Version:	1.5
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://lttng.org/files/packages/%{name}-%{version}.tar.bz2
